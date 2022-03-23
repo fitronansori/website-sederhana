@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 968px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header h1 {
+    font-weight: 400;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.header a {
+    color: black;
+}
+
+.header a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.hero .hero__image{
+    height: 200px;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -180px;
+}
+
+.main{
+    padding: 20px;
+}
+
+.main .judul__artikel {
+    font-size: 20px;
+}
+
+.main .penulis {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.main p {
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 8px;
+}
